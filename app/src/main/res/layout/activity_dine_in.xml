@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w3rk.harrimargono_1202151230_modul2.dineIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_customer"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/namaText"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nama"
+            android:layout_gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="@string/no_meja"
+            android:layout_gravity="center"/>
+
+        <Spinner
+            android:entries="@array/meja_array"
+            android:id="@+id/nomormeja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"></Spinner>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"/>
+
+
+
+        <Button
+            android:id="@+id/btn_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pilih_pesanan" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

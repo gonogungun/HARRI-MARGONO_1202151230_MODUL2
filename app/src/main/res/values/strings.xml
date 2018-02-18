@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">HARRI MARGONO_1202151230_MODUL2</string>
+    <string name="pilih_menu">Pilih Menu</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="identitas_pemesan">Identitas Pemesan</string>
+    <string name="nama">Nama</string>
+    <string name="telepon">Telepon</string>
+    <string name="alamat">Alamat</string>
+    <string name="catatan_tambahan">Catatan Tambahan</string>
+    <string name="detail_customer">Detail Customer</string>
+    <string name="no_meja">No. Meja</string>
+
+    <string name="spinner_work">Home</string>
+    <string name="hint_phonenumber">Enter phone number</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+
+    <string-array name="meja_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+        <item>Meja 9</item>
+        <item>Meja 10</item>
+    </string-array>
+
+</resources>
+
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w3rk.harrimargono_1202151230_modul2.takeAway">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identitas_pemesan"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/editText_nama"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/nama"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_telepon"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/telepon"
+            android:inputType="phone" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_alamat"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/alamat"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/editText_catatan"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/catatan_tambahan"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btn_pilihpesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pilih_pesanan" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
